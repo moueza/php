@@ -1,0 +1,23 @@
+class Stock{
+  var $chn;
+
+  function dup($x){
+    return 2*$x;
+  }
+
+    function concatenating($tablo){
+      for ($i = 1; $i; $i++) {
+    if ($i > 10) {
+        break;
+    }
+    echo $i;
+}
+  
+    }
+  contructor Stock($str){
+    $this.chn = $str;
+  }
+}
+
+var $s = new Stock("chn init");
+echo $s->dup(1);
