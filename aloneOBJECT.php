@@ -1,28 +1,14 @@
-<!doctype=html>
-<html>
-  <meta utf8>
-  <head>
-  </head>
+class Stock{
+  var $chn;
 
-  <body>
-    <div>
-      <form method="POST" action="php.php">
-	<label href="mail">Votre email:</label>
-	<input type="text" name="mail"></input>
-  </form>
-    </div>
-      <!-- double col-->
-      <div class="reponses"></div>
+  function dup($x){
+    return 2*$x;
+  }
 
+  contructor Stock($str){
+    $this.chn = $str;
+  }
+}
 
-      <div id="doubling">
-	<?php
-
-	  ?>
-      </div>
-
-
-      
-  </body>
-
-<html>
+var $s = new Stock("chn init");
+echo $s->dup(1);
