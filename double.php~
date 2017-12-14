@@ -12,17 +12,7 @@
   </form>
     </div>
       <!-- double col-->
-      <div class="reponses"></div>
-
-
-      <div id="doubling">
-	<?php
-echo "2";
-	  ?>
-      </div>
-
-
-      
+    <div class="reponses"></div>
   </body>
 
 <html>

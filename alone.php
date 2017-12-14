@@ -17,7 +17,7 @@
 
       <div id="doubling">
 	<?php
-echo "2";
+
 	  ?>
       </div>
 
